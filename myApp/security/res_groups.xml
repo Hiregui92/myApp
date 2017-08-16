@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Category groups -->
+    <record id="res_category_myapps" model="ir.module.category">
+        <field name="name">My App Rights</field>
+    </record>
+
+    <!-- Menu Credit Cards-->
+    <record id="res_group_cards" model="res.groups">
+        <field name="name">Manager Cards</field>
+        <field name="category_id" ref="res_category_myapps"/>
+        <field name="comment">
+            - This group manages the view cards and types. With this group you can
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="card_type_01" model="card.type">
+        <field name="name">MasterCard</field>
+    </record>
+
+    <record id="card_type_02" model="card.type">
+        <field name="name">Visa</field>
+    </record>
+
+    <record id="card_type_03" model="card.type">
+        <field name="name">Paypal</field>
+    </record>
+
+    <record id="card_type_04" model="card.type">
+        <field name="name">AmericanExpress</field>
+    </record>
+</odoo>
